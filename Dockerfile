@@ -2,6 +2,9 @@ FROM python:3
 
 WORKDIR /app
 
+
+COPY . /app
+
 COPY requirements.txt ./
 
 RUN apt-get update
