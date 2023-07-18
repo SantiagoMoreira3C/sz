@@ -13,7 +13,7 @@ from datetime import datetime
 
  
 
-client = MongoClient('mongodb+srv://admin:admin@cluster0.hrgaavf.mongodb.net/')
+client = MongoClient('mongodb+srv://admin:admin@cluster0.hrgaavf.mongodb.net/ritmo')
 #client = MongoClient('mongodb://localhost:27017')
 db = client.ritmo
 collection = db.datos
