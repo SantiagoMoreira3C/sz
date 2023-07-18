@@ -7,7 +7,8 @@ import base64
 from sklearn.linear_model import LinearRegression
 from datetime import datetime
 
-
+ 
+ 
 client = MongoClient('mongodb+srv://admin:admin@cluster0.hrgaavf.mongodb.net/')
 #client = MongoClient('mongodb://localhost:27017')
 db = client.ritmo
